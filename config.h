@@ -216,7 +216,7 @@ static const Key keys[] = {
      SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle")}, // mute
     {0, XK_Print, spawn, SHCMD("flameshot screen")},      // screenshot
 
-    {MODKEY, XK_e, spawn, SHCMD("pcmanfm")}, // file explorer
+    {MODKEY, XK_e, spawn, SHCMD("nautilus")}, // file explorer
 
     {MODKEY, XK_b, togglebar, {0}},
     {MODKEY, XK_j, focusstack, {.i = +1}},
