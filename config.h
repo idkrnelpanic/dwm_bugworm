@@ -204,7 +204,7 @@ static const Key keys[] = {
     /* modifier                     key        function        argument */
     {MODKEY, XK_d, spawn, SHCMD("dmenu_run")},
     {MODKEY, XK_r, spawn, SHCMD("dmenu_run_desktop -c -l 10")},
-    {MODKEY, XK_Return, spawn, SHCMD("st")},
+    {MODKEY, XK_Return, spawn, SHCMD("alacritty")},
     {MODKEY, XK_g, spawn, SHCMD("chromium")},
 
     /* volume control */
