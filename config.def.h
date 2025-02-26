@@ -205,7 +205,7 @@ static const Key keys[] = {
     {MODKEY, XK_d, spawn, SHCMD("dmenu_run")},
     {MODKEY, XK_r, spawn, SHCMD("dmenu_run_desktop -c -l 10")},
     {MODKEY, XK_Return, spawn, SHCMD("alacritty")},
-    {MODKEY, XK_g, spawn, SHCMD("chromium")},
+    {MODKEY, XK_w, spawn, SHCMD("firefox")},
 
     /* volume control */
     {0, XF86XK_AudioRaiseVolume, spawn,
