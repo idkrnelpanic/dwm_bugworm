@@ -214,7 +214,7 @@ static const Key keys[] = {
      SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -10%")}, // volume down
     {0, XF86XK_AudioMute, spawn,
      SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle")}, // mute
-    {0, XK_Print, spawn, SHCMD("flameshot screen")},      // screenshot
+    {MODKEY | ShiftMask, XK_s, spawn, SHCMD("flameshot screen")},      // screenshot
 
     {MODKEY, XK_e, spawn, SHCMD("nautilus")}, // file explorer
 
